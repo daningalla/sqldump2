@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{015882BC-0F86-4DED-BC25-21A26010004D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDump.Cli", "src\SqlDump.Cli\SqlDump.Cli.csproj", "{8CE2C1FE-9EAC-4038-9757-4B1569D4F5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDump.Core", "src\SqlDump.Core\SqlDump.Core.csproj", "{4F76BC78-9A53-486C-9A1D-7C657FBA1587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDump.Engine", "src\SqlDump.Engine\SqlDump.Engine.csproj", "{6D515683-464E-4231-9073-BA60ABF77236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDump.Providers.MySql", "src\SqlDump.Providers.MySql\SqlDump.Providers.MySql.csproj", "{BA363D2D-3910-4ED4-A1B8-99D522CF5143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDump.Writers.Parquet", "src\SqlDump.Writers.Parquet\SqlDump.Writers.Parquet.csproj", "{E8D260AB-8FFE-4BAF-AA91-26EB760B0D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{25D920B1-F4F9-404A-AE19-79687000318B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDump.Tests", "test\SqlDump.Tests\SqlDump.Tests.csproj", "{570D5F5F-87B3-4127-AFD4-A1E7B0324D1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE2C1FE-9EAC-4038-9757-4B1569D4F5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE2C1FE-9EAC-4038-9757-4B1569D4F5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE2C1FE-9EAC-4038-9757-4B1569D4F5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE2C1FE-9EAC-4038-9757-4B1569D4F5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F76BC78-9A53-486C-9A1D-7C657FBA1587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F76BC78-9A53-486C-9A1D-7C657FBA1587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F76BC78-9A53-486C-9A1D-7C657FBA1587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F76BC78-9A53-486C-9A1D-7C657FBA1587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D515683-464E-4231-9073-BA60ABF77236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D515683-464E-4231-9073-BA60ABF77236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D515683-464E-4231-9073-BA60ABF77236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D515683-464E-4231-9073-BA60ABF77236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA363D2D-3910-4ED4-A1B8-99D522CF5143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA363D2D-3910-4ED4-A1B8-99D522CF5143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA363D2D-3910-4ED4-A1B8-99D522CF5143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA363D2D-3910-4ED4-A1B8-99D522CF5143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D260AB-8FFE-4BAF-AA91-26EB760B0D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D260AB-8FFE-4BAF-AA91-26EB760B0D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D260AB-8FFE-4BAF-AA91-26EB760B0D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D260AB-8FFE-4BAF-AA91-26EB760B0D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570D5F5F-87B3-4127-AFD4-A1E7B0324D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570D5F5F-87B3-4127-AFD4-A1E7B0324D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570D5F5F-87B3-4127-AFD4-A1E7B0324D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570D5F5F-87B3-4127-AFD4-A1E7B0324D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CE2C1FE-9EAC-4038-9757-4B1569D4F5DD} = {015882BC-0F86-4DED-BC25-21A26010004D}
+		{4F76BC78-9A53-486C-9A1D-7C657FBA1587} = {015882BC-0F86-4DED-BC25-21A26010004D}
+		{6D515683-464E-4231-9073-BA60ABF77236} = {015882BC-0F86-4DED-BC25-21A26010004D}
+		{BA363D2D-3910-4ED4-A1B8-99D522CF5143} = {015882BC-0F86-4DED-BC25-21A26010004D}
+		{E8D260AB-8FFE-4BAF-AA91-26EB760B0D46} = {015882BC-0F86-4DED-BC25-21A26010004D}
+		{570D5F5F-87B3-4127-AFD4-A1E7B0324D1F} = {25D920B1-F4F9-404A-AE19-79687000318B}
+	EndGlobalSection
+EndGlobal

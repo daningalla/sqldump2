@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SqlDump.Engine\SqlDump.Engine.csproj" />
+    <ProjectReference Include="..\SqlDump.Providers.MySql\SqlDump.Providers.MySql.csproj" />
+    <ProjectReference Include="..\SqlDump.Writers.Parquet\SqlDump.Writers.Parquet.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="vertical-cli" Version="1.0.0-dev.20240625.20" />
+    <PackageReference Include="vertical-spectreconsolelogger" Version="0.10.1-dev.20240326.31" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
